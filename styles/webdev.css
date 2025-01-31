@@ -1,0 +1,186 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    width:100%;
+    
+}
+.container{
+    width: 70%;
+    height: 90vh;
+    background-color:rgb(226, 222, 226);
+    display: flex;
+
+}
+.main{
+    width: 157%;
+    background-color:rgb(236, 250, 249);
+    height: 80%;
+    margin-top: 5%;
+
+}
+.logo{
+    width:7% ;
+    margin-top: 10%;
+   margin-left: 7%;
+    
+}
+.content{
+    margin-left: 7%;
+    color: rgb(14, 10, 10);
+
+}
+p{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 22px;
+    color: black;
+    font-family: sans-serif;
+}
+.register{
+    width: 31%;
+    height: 62vh;
+    background-color:white;
+    position: absolute;
+
+    right: 22%;
+    top: 17.5%;
+    box-shadow: 1px 1px 15px  rgb(197, 191, 191);
+    display: flex;
+}
+.frm{
+display: flex;
+align-items: center;
+padding: 4%;
+
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    padding-bottom: 3%;
+    flex-shrink: 1;
+
+
+}
+.sec-row{
+    display: flex;
+    flex-direction: row;
+    width: 130%;
+    column-gap: 10%;
+    padding-bottom: 3%;
+    flex-shrink: 1;
+
+
+}
+.third-row{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    column-gap: 10%;
+    padding-bottom: 3%;
+    flex-shrink: 1;
+
+
+
+
+
+
+}
+#first{
+    height: 3.5vh;
+
+}
+#name{
+    height: 3.5vh;
+
+
+}
+
+input{
+    display: block;
+    width: 110%;
+} 
+::placeholder{
+    font-size: 11px;
+}
+#gender{
+display: block;
+width: 178%;
+height: 5vh;
+
+}
+#weight{
+width: 102%;
+margin-left: 27%;
+height: 4vh;
+text-align: left;
+}
+
+
+#height{
+margin-left: 31%;
+width: 101%;
+height: 4vh;
+
+}
+#dob{
+width: 160%;
+height: 4.3vh;
+
+}
+.weight-label{
+padding: 28%;
+}
+.height-label{
+padding: 33%;
+}
+.act{
+display: block;
+}
+#activity{
+width: 107%;
+height:5vh;
+margin-bottom: 4px;
+
+}
+#password{
+width: 105%;
+height:2.5vh;
+padding-bottom: 3%;
+
+
+}
+button{
+width: 107.5%;
+height:4.5vh;
+margin-top: 3vh;
+background-color: #2EC4B6;
+border:none;
+cursor: pointer;
+
+
+}
+#term{
+color: #2EC4B6;
+}
+#privacy{
+color: #2EC4B6;
+
+}
+label{
+font-size: 12px;
+font-family: sans-serif;
+color: black;
+}
+
+
+
+
+
+
+

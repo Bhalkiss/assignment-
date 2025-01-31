@@ -1,0 +1,82 @@
+.my-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  button{
+    width: 25%;
+    height: 10vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(122, 80, 109);
+    color: black;
+  }
+  
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    position: relative;
+    flex-shrink: 1;
+}
+.main{
+    width: 35%;
+    height: 45vh;
+    background-color: rgb(231, 226, 226);
+    display: flex;
+    flex-shrink: 2;
+}
+.black{
+    background-color: black;
+    width: 97%;
+    height: 42vh;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-bottom: solid rgb(252, 251, 251) 7px;
+
+
+}
+
+.body{
+    width: 55%;
+    height: 28vh;
+    background-color: rgb(252, 252, 239);
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+    margin-left: 8%;
+}
+p{
+    font-size: 11px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30%;
+    margin-left: 5%;
+    margin-right:5%;
+    color:black;
+    font-weight: bold;
+
+}
+.otter{
+    width:15%;
+    height: 10vh;
+    background-color: #fb0e95;
+    position: absolute;
+    top: 12%;
+    border-radius: 5px;
+    display: flex;
+    left: 37.5%;
+    
+}
+.text{
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    top: -70%;
+    right: 12%;
+}
